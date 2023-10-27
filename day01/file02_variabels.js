@@ -29,27 +29,27 @@ declare automatically
 //Persion detail
 Pname ="Alex Murmu";
 Paddress="Dumak";
-Ppost="Rajband";
+Ppost="Rajband";       //changeable values 
 Pdistrict ="Dumka";
 
 
 //===================>Var variable
 var Mname ="1Alex";
 var Maddress ="Dumka";
-var Mpost ="Rajbandh";
+var Mpost ="Rajbandh";  //Values are changeable
 var Mdistrict ="Dumka";
 
 //===================> let Variable
 let Rname ="2Alex";
 let Raddress ="Dumka";
-let Rpost ="Rajbandh";
-let Rdistrict ="Dumka";
+let Rpost ="Rajbandh";         // you can change the value of //
+let Rdistrict ="Dumka";         //let declared var values//
 Rdistrict ="pakur";
 
 
 //===================> const variable
 const Tname="3Alex";
-const Taddress ="Dumka";
+const Taddress ="Dumka";       //unchaneable values
 const Tpost ="Rajbandh";
 const Tdistrict ="Dumka";
      

@@ -12,7 +12,7 @@
        _firstname ="Alex"; (Valid)
        $firstname ="Alex";
        first$name ="Alex";
-
+ 
 
  3.You cannot use space
   first name ="Alex"; (invalid)
@@ -22,6 +22,13 @@
    */
 
    var value1 =4;
+   console.log("power of a number")
    console.log(value1 **2);
+
+   let lname="Alex";
+    lname ="pnda";
+
+   console.log(lname);
+   
 
   
