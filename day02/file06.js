@@ -22,3 +22,9 @@ console.log(aboutme);
 
 aboutme =`hello my name is ${myname} and my age is ${age} `;
 console.log(aboutme);
+
+// once again
+let father_name ="Albinus murmu";
+let father_age=56;
+let my_father=`My father name is ${father_name} and his age is ${age}`;
+console.log(my_father);
