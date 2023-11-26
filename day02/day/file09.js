@@ -69,25 +69,21 @@ else{
 }
 
 //write a scrript for find largest among three
-let number1=12,number2=13,number3=14;
-if(number1>number2){
-    if(number2>number3){
-        console.log(number1+ " is largest");
+function findGreatestNumber(a,b,c){
+    if(a>=b && a>=c){
+        return a;
+    }
+    else if(b>=a && b>=c){
+        return b;
     }
     else{
-        console.log(number3 + " is largest");
+        return c;
     }
-}
-else{
-    console.log(number2+" is largest");
 }
 
-function findLargestNumber(num1, num2, num3) {
-    if (num1 >= num2 && num1 >= num3) {
-        return num1 + " is the largest number.";
-    } else if (num2 >= num1 && num2 >= num3) {
-        return num2 + " is the largest number.";
-    } else {
-        return num3 + " is the largest number.";
-    }
-}
+// Example 
+var num1 =30;
+var num2 =40;
+var num3 =50;
+var greatestNumber = findGreatestNumber(num1,num2,num3);
+console.log(greatestNumber);
